@@ -42,7 +42,7 @@ public class CubeController : MonoBehaviour
                     _spawnCooldown = 0.1f;
                 }
                 spawnInputField.text = "";
-                currentSpawnCooldownText.text = $"Current cooldown: {newValue}";
+                currentSpawnCooldownText.text = $"Current cooldown: {_spawnCooldown}";
             }
             else
             {
@@ -61,7 +61,7 @@ public class CubeController : MonoBehaviour
                     _moveSpeed = 0.1f;
                 }
                 speedInputField.text = "";
-                currentSpeedText.text = $"Current speed: {newValue}";
+                currentSpeedText.text = $"Current speed: {_moveSpeed}";
             }
             else
             {
@@ -79,7 +79,7 @@ public class CubeController : MonoBehaviour
                     _moveDistance = 0.1f;
                 }
                 distanceInputField.text = "";
-                currentDistanceText.text = $"Current distance: {newValue}";
+                currentDistanceText.text = $"Current distance: {_moveDistance}";
             }
             else
             {
